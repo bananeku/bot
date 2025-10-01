@@ -14,11 +14,11 @@ TOKEN = os.environ.get("DISCORD_TOKEN")
 if TOKEN is None:
     raise ValueError("Nie ustawiono tokena bota! Ustaw zmienną środowiskową DISCORD_TOKEN")
 
-LOG_CHANNEL_ID = 1422770690905477141   # ID kanału z logami z gry
-ALERT_CHANNEL_ID = 1422765944316366949 # ID kanału, gdzie bot ma wysyłać powiadomienia
+LOG_CHANNEL_ID = 1412336608178343976  # ID kanału z logami z gry
+ALERT_CHANNEL_ID = 1422798704674345002 # ID kanału, gdzie bot ma wysyłać powiadomienia
 JSON_FILE = "respawns.json"
 
-DEFAULT_RESPAWN_TIME = 60  # 1 minuta do testów
+DEFAULT_RESPAWN_TIME = 10800  # 1 minuta do testów
 REMINDERS = [10, 5, 1]            # przypomnienie 1 minutę przed respawnem
 REMINDER_WINDOW = 10       # okienko ochronne w sekundach
 
@@ -154,3 +154,4 @@ async def test(ctx):
 # URUCHOMIENIE BOTA
 # =======================
 bot.run(TOKEN)
+
