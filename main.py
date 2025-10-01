@@ -14,8 +14,7 @@ init(autoreset=True)
 CONFIG = {
     "status": "online",  # online/dnd/idle
     "custom_status": "sram do wora jak do jeziora",
-    # "channel_id": "1412336608178343976",  # ID kanału do monitorowania
-    "channel_id": "1423090162136645715",  # ID kanału do monitorowania
+    "channel_id": "1412336608178343976",  # ID kanału do monitorowania
     "webhook_url": "https://discord.com/api/webhooks/1423082111623237765/mvXK0CnxxJ6gsRWx5L5-Zh_MgfWa9QdxbtEdEsyHO7-Mvp1G2HwX-8eXr5qDzwgp6L0Z",  # URL webhooka do przesyłania wiadomości
     "save_to_file": True,  # Czy zapisywać wiadomości do pliku JSON
     "send_to_webhook": True,  # Czy wysyłać wiadomości webhookiem
