@@ -1,0 +1,16 @@
+# Discord & Web
+requests==2.31.0
+websockets==12.0
+aiohttp==3.8.5
+
+# Console colors
+colorama==0.4.6
+
+# Web server for keep_alive
+flask==2.3.3
+
+# Async
+asyncio-mqtt==0.16.0
+
+# Utilities
+python-dotenv==1.0.0
